@@ -9,7 +9,7 @@ Source data is published at following URL.
 http://www.gsi.go.jp/kihonjohochousa/gazetteer.html
 
 # SRS
-Oeiginal data may be based on SRS: JGD2000?
+Original data may be based on SRS: JGD2000?
 
 They are converted into WGS84, see lat/lon column.
 
