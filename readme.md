@@ -1,3 +1,6 @@
+# To English speaker
+See "readme.en.md" for detail.
+
 # これは何？
 「日本国政府： 地名集日本（2007年）」に基づいて作成した地名とその読み方、緯度経度の一覧です。
 
