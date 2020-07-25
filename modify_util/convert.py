@@ -68,7 +68,11 @@ with open("modify_2018.csv") as f:
             alllist[pos2][0] =  line[2][:-1]
             alllist[pos2][1] =  line[3][:-1]
             alllist[pos2][2] =  line[4][:-1]
-            alllist[pos2].append( line[0]+ " "+line[8]+"から名称変更")
+            if len(alllist[pos2]) == 8:
+                
+                alllist[pos2].append( line[0]+ " "+line[8]+"から名称変更")
+            else:
+                alllist[pos2][8] = line[0]+ " "+line[8]+"から名称変更"
             if alllist[pos2][1] != line[3][:-1]:
                 alllist[pos2][8] +=  " "+alllist[pos2][1]+"から読み変更"
             if alllist[pos2][2] != line[4][:-1]:
